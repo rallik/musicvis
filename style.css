@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    /* background-color: black; */
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;    
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+}
+
+
+
+.grid {
+    width: 20%;
+    margin: 1.5% 0% 0% 1.5%;
+    display: grid;
+    grid-template-columns: auto 70%;
+    justify-content: center;
+    justify-items: end;
+    align-items: center;
+    gap: 10px 20px;
+    z-index: 1;
+    background-color: white;
+}
+
+.grid label {
+    margin: 0;
+}
+
+.grid input {
+    margin: 0;
+    width: 100%;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
